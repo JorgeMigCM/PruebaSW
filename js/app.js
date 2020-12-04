@@ -1,5 +1,5 @@
 var url = window.location.href;
-var swLocation = '/test/sw.js';
+var swLocation = '/pruebaSW/sw.js';
 if (navigator.serviceWorker) {
 
     if (url.includes('localhost')) {
